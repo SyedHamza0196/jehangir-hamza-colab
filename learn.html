@@ -2,84 +2,167 @@
 <html>
 <head>
  	<link rel="stylesheet" href="./learn.css">
- 	<script src="myscripts.js"></script>
+ 	<script src="./learn.js"></script>
  	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-	<div class="tab-list">
-		<span><i class='fas fa-angle-left'></i></span>
-		<a href="#" class="tab">pop</a>
-		<a href="#" class="tab">chill</a>
-		<a href="#" class="tab">CR</a>
-		<a href="#" class="tab">cwa</a>
-		<span><i class='fas fa-angle-right'></i></span>
+	<div id="mySidebar" class="sidebar">
+  		<a href="#" class="toggle-button" onclick="toggleNav()"><img src="./images/menu_2x.png"></a>
+  		<a href="#" class="side-item"><img src="./images/home_2x.png"></a>
+  		<a href="#" class="side-item"><img src="./images/trending_2x.png"></a>
+  		<a href="#" class="side-item"><img src="./images/subscription_2x.png"></a>
+  		<a href="#" class="side-item"><img src="./images/library_2x.png"></a>
+	</div>
+	
+	<div class="topnav" style="border: 1px solid black;">
+		<h3 class="nav-yt-link" style="border: 1px solid black;">YouTube</h3>
+		<div style="border: 1px solid black;">
+			<input type="text" placeholder="Search.." name="search">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</div>
+		<div class="nav-right" style="border: 1px solid black;">
+			<img src="./images/call_2x.png">
+			<img src="./images/menu_navbar_2x.png">
+			<img src="./images/bell_2x.png">
+			<img class="id-img" src="./images/id.jpg">
+		</div>
 	</div>
 
-	<div class="main-container">
-		<div class="tile-grid">
-			<div class="tile">
-				<div class="tile-img">
-					<img src="./images/clouds.jpg">
-				</div>
-				<div class="tile-description">
-					<div class="description-img">
+	<div class="super-container">
+		<div class="tab-list">
+			<span><i class='fas fa-angle-left'></i></span>
+			<a href="#" class="tab">pop</a>
+			<a href="#" class="tab">chill</a>
+			<a href="#" class="tab">CR</a>
+			<a href="#" class="tab">cwa</a>
+			<span><i class='fas fa-angle-right'></i></span>
+		</div>
+
+		<div class="main-container">
+			<div class="tile-grid">
+				<div class="tile">
+					<div class="tile-img">
 						<img src="./images/clouds.jpg">
 					</div>
-					<div class="description-detail">
-						<strong><p>some great music</p></strong>
-							<p>Atif Aslam</p>
-							<p>95K views-q month ago</p>
+					<div class="tile-description">
+						<div class="description-img">
+							<img src="./images/clouds.jpg">
+						</div>
+						<div class="description-detail">
+							<strong><p>some great music</p></strong>
+								<p>Atif Aslam</p>
+								<p>95K views-q month ago</p>
+						</div>
 					</div>
 				</div>
+				<div class="tile">
+					<div class="tile-img">
+						<img src="./images/clouds.jpg">
+					</div>
+					<div class="tile-description">
+						<div class="description-img">
+							<img src="./images/clouds.jpg">
+						</div>
+						<div class="description-detail">
+							<strong><p>some great music</p></strong>
+								<p>Atif Aslam</p>
+								<p>95K views-q month ago</p>
+						</div>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-img">
+						<img src="./images/clouds.jpg">
+					</div>
+					<div class="tile-description">
+						<div class="description-img">
+							<img src="./images/clouds.jpg">
+						</div>
+						<div class="description-detail">
+							<strong><p>some great music</p></strong>
+								<p>Atif Aslam</p>
+								<p>95K views-q month ago</p>
+						</div>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-img">
+						<img src="./images/clouds.jpg">
+					</div>
+					<div class="tile-description">
+						<div class="description-img">
+							<img src="./images/clouds.jpg">
+						</div>
+						<div class="description-detail">
+							<strong><p>some great music</p></strong>
+								<p>Atif Aslam</p>
+								<p>95K views-q month ago</p>
+						</div>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-img">
+						<img src="./images/clouds.jpg">
+					</div>
+					<div class="tile-description">
+						<div class="description-img">
+							<img src="./images/clouds.jpg">
+						</div>
+						<div class="description-detail">
+							<strong><p>some great music</p></strong>
+								<p>Atif Aslam</p>
+								<p>95K views-q month ago</p>
+						</div>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-img">
+						<img src="./images/clouds.jpg">
+					</div>
+					<div class="tile-description">
+						<div class="description-img">
+							<img src="./images/clouds.jpg">
+						</div>
+						<div class="description-detail">
+							<strong><p>some great music</p></strong>
+								<p>Atif Aslam</p>
+								<p>95K views-q month ago</p>
+						</div>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-img">
+						<img src="./images/clouds.jpg">
+					</div>
+					<div class="tile-description">
+						<div class="description-img">
+							<img src="./images/clouds.jpg">
+						</div>
+						<div class="description-detail">
+							<strong><p>some great music</p></strong>
+								<p>Atif Aslam</p>
+								<p>95K views-q month ago</p>
+						</div>
+					</div>
+				</div>
+				<div class="tile">
+					<div class="tile-img">
+						<img src="./images/clouds.jpg">
+					</div>
+					<div class="tile-description">
+						<div class="description-img">
+							<img src="./images/clouds.jpg">
+						</div>
+						<div class="description-detail">
+							<strong><p>some great music</p></strong>
+								<p>Atif Aslam</p>
+								<p>95K views-q month ago</p>
+						</div>
+					</div>
+				</div>	
 			</div>
-			<div class="tile">
-				<div class="tile-img">
-					<img src="./images/clouds.jpg">
-				</div>
-				<div class="tile-description">
-					<div class="description-img">
-						<img src="./images/clouds.jpg">
-					</div>
-					<div class="description-detail">
-						<strong><p>some great music</p></strong>
-							<p>Atif Aslam</p>
-							<p>95K views-q month ago</p>
-					</div>
-				</div>
-			</div>
-			<div class="tile">
-				<div class="tile-img">
-					<img src="./images/clouds.jpg">
-				</div>
-				<div class="tile-description">
-					<div class="description-img">
-						<img src="./images/clouds.jpg">
-					</div>
-					<div class="description-detail">
-						<strong><p>some great music</p></strong>
-							<p>Atif Aslam</p>
-							<p>95K views-q month ago</p>
-					</div>
-				</div>
-			</div>
-			<div class="tile">
-				<div class="tile-img">
-					<img src="./images/clouds.jpg">
-				</div>
-				<div class="tile-description">
-					<div class="description-img">
-						<img src="./images/clouds.jpg">
-					</div>
-					<div class="description-detail">
-						<strong><p>some great music</p></strong>
-							<p>Atif Aslam</p>
-							<p>95K views-q month ago</p>
-					</div>
-				</div>
-			</div>	
 		</div>
 	</div>	
 

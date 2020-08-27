@@ -1,8 +1,69 @@
+.sidebar {
+  height: 100%;
+  width: 75px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 15px 8px 8px 20px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+/*.sidebar a:hover {
+  color: #f1f1f1;
+}*/
+
+.sidebar .toggle-button {
+	padding: 0 8px 8px 20px;
+}
+
+.side-item {
+	border: 1px bold black;
+}
+
+.topnav {
+	margin-left: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.nav-right {
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-between;
+}
+
+.id-img {
+	border-radius: 50%;
+	width: 40px;
+}
+
+.nav-yt-link {
+}
+
+.super-container {
+	margin: 0;
+	padding: 0;
+
+}
+
 .tab-list {
 	/*background-color: blue;*/
 	border-top: 1px solid #e0e0e0;
 	margin-top: 10px;
 	padding: 15px 10px;
+	margin-left: 75px;
 }
 
 .tab {
@@ -34,21 +95,22 @@
 .main-container {
 	border-top: 1px solid #e0e0e0;
 	background-color: #F9F9F9;
+	margin-left: 75px;
 }
 
 .tile-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
   	/*grid-gap: 25px;*/
 	margin: 30px;
 
 }
 
 .tile {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 .tile-img{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .tile-img img {
@@ -57,16 +119,16 @@
 }
 
 .tile-description {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: grid;
 	grid-template-columns: 0.3fr 1fr;
 }
 
 .description-img img {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	border-radius: 50%;
 	width: 40px;
-	margin: 15px;
+	margin: 20px 0 0 10px;
 /*	border-style: solid;
   	border-width: 1px;
   	max-width: 100%;
@@ -74,23 +136,8 @@
 }
 
 .description-detail{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
-/*
-
-
-
-
-.tile-description {
-	border-style: solid;
-  	border-width: 1px;
-	padding-left:25%;
-	display:inline;
+.description-detail {
+	margin: 0;
 }
-
-.circle-img {
-	border-radius: 50%;
-	width:50px;
-	margin: 10px;
-}
-*/
